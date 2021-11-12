@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="OñaAntonella" company="" webLink="http://" view-date="2021-08-01" view-index="0" gantt-divider-location="926" resource-divider-location="300" version="2.8.11" locale="es">
+    <description><![CDATA[Metodos y sistemas
+Gantt emprendimiento 2021]]></description>
+    <view zooming-state="default:8" id="gantt-chart">
+        <field id="tpd3" name="Nombre" width="320" order="0"/>
+        <field id="tpd4" name="Fecha de inicio" width="294" order="1"/>
+        <field id="tpd5" name="Fecha de fin" width="293" order="2"/>
+        <option id="color.recent"><![CDATA[#cc00cc #000000 #0000ff #ffff00 #ff9900 #ff0000 #00ff33 #66ffcc #ffcc00 #cc0000]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nombre" width="210" order="0"/>
+        <field id="1" name="Función" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="507" name="ANÁLISIS" color="#000000" meeting="false" start="2021-05-17" duration="10" complete="0" thirdDate="2021-05-24" thirdDate-constraint="0" expand="true">
+            <task id="0" name="Definir proyecto" color="#0000ff" meeting="false" start="2021-05-17" duration="5" complete="0" thirdDate="2021-05-24" thirdDate-constraint="0" expand="true">
+                <depend id="6" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="2" name="Definir nombre" color="#0000ff" meeting="false" start="2021-05-17" duration="5" complete="0" thirdDate="2021-05-24" thirdDate-constraint="0" expand="true">
+                <depend id="94" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="94" name="Definir lenguaje a utilizar" color="#0000ff" meeting="false" start="2021-05-24" duration="5" complete="0" thirdDate="2021-06-28" thirdDate-constraint="0" expand="true"/>
+            <task id="6" name="Investigar paginas relacionadas" color="#ff0000" meeting="false" start="2021-05-24" duration="2" complete="0" thirdDate="2021-05-24" thirdDate-constraint="0" expand="true">
+                <depend id="504" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="505" name="DISEÑO DE PÁGINA WEB" color="#000000" meeting="false" start="2021-05-26" duration="110" complete="0" thirdDate="2021-05-24" thirdDate-constraint="0" expand="true">
+            <task id="45" name="INICIO" color="#cc00cc" meeting="false" start="2021-05-26" duration="33" complete="0" thirdDate="2021-05-17" thirdDate-constraint="0" expand="true">
+                <task id="504" name="Definir paleta colores" color="#0000ff" meeting="false" start="2021-05-26" duration="3" complete="0" thirdDate="2021-05-24" thirdDate-constraint="0" expand="true">
+                    <depend id="13" type="2" difference="0" hardness="Strong"/>
+                    <depend id="20" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="503" name="Definir diseño, texto e imagenes" color="#0000ff" meeting="false" start="2021-05-26" duration="3" complete="0" thirdDate="2021-05-31" thirdDate-constraint="0" expand="true"/>
+                <task id="13" name="Investigar codigos simples de diseño" color="#ff0000" meeting="false" start="2021-05-31" duration="10" complete="0" thirdDate="2021-05-24" thirdDate-constraint="0" expand="true"/>
+                <task id="20" name="Boceto pag inicio" color="#ff9900" meeting="false" start="2021-05-31" duration="3" complete="0" thirdDate="2021-05-17" thirdDate-constraint="0" expand="true">
+                    <depend id="65" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="65" name="Iniciar código de página web simple" color="#ffff00" meeting="false" start="2021-06-03" duration="7" complete="0" thirdDate="2021-05-17" thirdDate-constraint="0" expand="true">
+                    <depend id="23" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="23" name="1er prot. Página INICIO" color="#00ff33" meeting="false" start="2021-06-14" duration="5" complete="0" thirdDate="2021-05-17" thirdDate-constraint="0" expand="true">
+                    <depend id="42" type="2" difference="0" hardness="Strong"/>
+                    <depend id="44" type="2" difference="0" hardness="Strong"/>
+                    <depend id="57" type="2" difference="0" hardness="Strong"/>
+                    <depend id="58" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="42" name="Investigar contenido interactivo" color="#ff0000" meeting="false" start="2021-06-21" duration="5" complete="0" thirdDate="2021-05-17" thirdDate-constraint="0" expand="true"/>
+                <task id="44" name="Definir si o no contenido interactivo" color="#0000ff" meeting="false" start="2021-06-21" duration="5" complete="0" thirdDate="2021-05-17" thirdDate-constraint="0" expand="true"/>
+                <task id="57" name="Investigar codigos de contenido interacivo" color="#ff0000" meeting="false" start="2021-06-21" duration="5" complete="0" thirdDate="2021-05-31" thirdDate-constraint="0" expand="true"/>
+                <task id="58" name="Definir si o no demas datos" color="#0000ff" meeting="false" start="2021-06-21" duration="3" complete="0" thirdDate="2021-05-31" thirdDate-constraint="0" expand="true">
+                    <depend id="50" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="50" name="Boceto página inicio" color="#ff9900" meeting="false" start="2021-06-24" duration="2" complete="0" thirdDate="2021-05-31" thirdDate-constraint="0" expand="true">
+                    <depend id="63" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="63" name="Iniciar código de página web principal interactiva" color="#ffff00" meeting="false" start="2021-06-28" duration="5" complete="0" thirdDate="2021-05-17" thirdDate-constraint="0" expand="true">
+                    <depend id="70" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="70" name="2do prot. Pagina INICIO interactiva" color="#00ff33" meeting="false" start="2021-07-05" duration="5" complete="0" thirdDate="2021-05-17" thirdDate-constraint="0" expand="true">
+                    <depend id="59" type="2" difference="0" hardness="Strong"/>
+                    <depend id="87" type="2" difference="0" hardness="Strong"/>
+                </task>
+            </task>
+            <task id="59" name="PRODUCTOS" color="#cc00cc" meeting="false" start="2021-07-12" duration="35" complete="0" thirdDate="2021-05-31" thirdDate-constraint="0" expand="true">
+                <task id="87" name="Definir productos e imagenes a exponer" color="#0000ff" meeting="false" start="2021-07-12" duration="5" complete="0" thirdDate="2021-06-28" thirdDate-constraint="0" expand="true">
+                    <depend id="90" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="90" name="Boceto página productos" color="#ff9900" meeting="false" start="2021-07-19" duration="2" complete="0" thirdDate="2021-06-28" thirdDate-constraint="0" expand="true">
+                    <depend id="91" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="91" name="Iniciar código página exibidora" color="#ffff00" meeting="false" start="2021-07-21" duration="8" complete="0" thirdDate="2021-06-28" thirdDate-constraint="0" expand="true">
+                    <depend id="120" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="120" name="3er prot. Página PRODUCTOS" color="#00ff33" meeting="false" start="2021-08-02" duration="5" complete="0" thirdDate="2021-09-20" thirdDate-constraint="0" expand="true">
+                    <depend id="122" type="2" difference="0" hardness="Strong"/>
+                    <depend id="169" type="2" difference="0" hardness="Strong"/>
+                    <depend id="365" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="365" name="Definir descripcion por producto" color="#0000ff" meeting="false" start="2021-08-09" duration="5" complete="0" thirdDate="2021-08-09" thirdDate-constraint="0" expand="true"/>
+                <task id="169" name="Boceto pag info productos" color="#ff9900" meeting="false" start="2021-08-09" duration="3" complete="0" thirdDate="2021-08-16" thirdDate-constraint="0" expand="true"/>
+                <task id="122" name="Iniciar codigo descripcion por producto" color="#ffff00" meeting="false" start="2021-08-09" duration="5" complete="0" thirdDate="2021-11-22" thirdDate-constraint="0" expand="true">
+                    <depend id="174" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="174" name="4to prot. Página PRODUCTOS INFO" color="#00ff33" meeting="false" start="2021-08-16" duration="10" complete="0" thirdDate="2021-09-06" thirdDate-constraint="0" expand="true">
+                    <depend id="211" type="2" difference="0" hardness="Strong"/>
+                    <depend id="440" type="2" difference="0" hardness="Strong"/>
+                    <depend id="441" type="2" difference="0" hardness="Strong"/>
+                    <depend id="499" type="2" difference="0" hardness="Strong"/>
+                </task>
+            </task>
+            <task id="211" name="CARRITO" color="#cc00cc" meeting="false" start="2021-08-30" duration="27" complete="0" thirdDate="2021-09-20" thirdDate-constraint="0" expand="true">
+                <task id="441" name="Investigar codigo para compras" color="#ff0000" meeting="false" start="2021-08-30" duration="10" complete="0" thirdDate="2021-08-30" thirdDate-constraint="0" expand="true"/>
+                <task id="499" name="Definir" color="#0000ff" meeting="false" start="2021-08-30" duration="10" complete="0" thirdDate="2021-08-23" thirdDate-constraint="0" expand="true"/>
+                <task id="440" name="Boceto carrito" color="#ff9900" meeting="false" start="2021-08-30" duration="2" complete="0" thirdDate="2021-08-30" thirdDate-constraint="0" expand="true">
+                    <depend id="453" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="453" name="Iniciar codigo carrito" color="#ffff00" meeting="false" start="2021-09-01" duration="20" complete="0" thirdDate="2021-10-11" thirdDate-constraint="0" expand="true">
+                    <depend id="204" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="204" name="5to prot. Confirmacion" color="#00ff33" meeting="false" start="2021-09-29" duration="5" complete="0" thirdDate="2021-09-20" thirdDate-constraint="0" expand="true">
+                    <depend id="376" type="2" difference="0" hardness="Strong"/>
+                    <depend id="381" type="2" difference="0" hardness="Strong"/>
+                </task>
+            </task>
+            <task id="376" name="INFORMACION" color="#cc00cc" meeting="false" start="2021-10-06" duration="15" complete="0" thirdDate="2021-08-30" thirdDate-constraint="0" expand="true">
+                <task id="381" name="Definir info" color="#0000ff" meeting="false" start="2021-10-06" duration="3" complete="0" thirdDate="2021-09-06" thirdDate-constraint="0" expand="true">
+                    <depend id="380" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="380" name="Boceto pag informacion" color="#ff9900" meeting="false" start="2021-10-11" duration="2" complete="0" thirdDate="2021-09-06" thirdDate-constraint="0" expand="true">
+                    <depend id="379" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="379" name="Iniciar codigo pagina informacion" color="#ffff00" meeting="false" start="2021-10-13" duration="5" complete="0" thirdDate="2021-09-06" thirdDate-constraint="0" expand="true">
+                    <depend id="395" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="395" name="6to prot. Página CONTACTO" color="#00ff33" meeting="false" start="2021-10-20" duration="5" complete="0" thirdDate="2021-09-06" thirdDate-constraint="0" expand="true">
+                    <depend id="164" type="2" difference="0" hardness="Strong"/>
+                </task>
+            </task>
+        </task>
+        <task id="164" name="IMPLEMENTACION" color="#000000" meeting="false" start="2021-10-27" duration="20" complete="0" thirdDate="2021-06-07" thirdDate-constraint="0" expand="true">
+            <task id="515" name="Prueba 1" color="#8cb6ce" meeting="false" start="2021-10-27" duration="5" complete="0" thirdDate="2021-10-27" thirdDate-constraint="0" expand="true">
+                <depend id="517" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="517" name="PROT PRUEBA 1" color="#8cb6ce" meeting="false" start="2021-11-03" duration="5" complete="0" thirdDate="2021-10-27" thirdDate-constraint="0" expand="true">
+                <depend id="516" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="516" name="Prueba 2" color="#8cb6ce" meeting="false" start="2021-11-10" duration="5" complete="0" thirdDate="2021-10-27" thirdDate-constraint="0" expand="true">
+                <depend id="521" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="521" name="Implementar" color="#8cb6ce" meeting="false" start="2021-11-17" duration="5" complete="0" thirdDate="2021-10-27" thirdDate-constraint="0" expand="true"/>
+        </task>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
